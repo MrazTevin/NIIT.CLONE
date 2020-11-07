@@ -1,0 +1,38 @@
+.course-card {
+  box-sizing: border-box;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  /* padding-left: 100px; */
+  /* align-items: center;
+  justify-items: center;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 4px; */
+  /* margin: 0 auto; */
+}
+
+.portfolio-gallery {
+  justify-content: center;
+  padding-top: 40px;
+  align-items: center;
+  padding-left: 200px;
+  /* padding-right: 100px; */
+  /* text-align: center; */
+}
